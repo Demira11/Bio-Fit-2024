@@ -52,9 +52,40 @@ body {
   width: 100%;
 }
 
+/*header start*/
+
 #header img {
   width: 50px;
   height: 50px;
-  margin-top: 10px;
-  margin-left: 70px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #f2ede6;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1e2833;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+  color: #678935;
 }
