@@ -102,3 +102,27 @@ body {
   bottom: -4px;
   left: 20px;
 }
+
+/*home page*/
+
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  color: white;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container .home-page-title,
+.home-sub-title {
+  position: absolute;
+  color: #f2ede6;
+  right: 10px;
+  top: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
