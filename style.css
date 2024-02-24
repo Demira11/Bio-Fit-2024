@@ -65,8 +65,11 @@ body {
   justify-content: space-between;
   padding: 10px 60px;
   background: #f2ede6;
-  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.7);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.4);
   z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar {
