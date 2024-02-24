@@ -105,24 +105,8 @@ body {
 
 /*home page*/
 
-.container {
+#hero {
+  background-image: url(images/pasta\ in\ production.jpeg);
+  height: 90vh;
   width: 100%;
-  height: auto;
-  position: relative;
-  color: white;
-}
-
-.container img {
-  width: 100%;
-}
-
-.container .home-page-title,
-.home-sub-title {
-  position: absolute;
-  color: #f2ede6;
-  right: 10px;
-  top: 10px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
