@@ -109,4 +109,6 @@ body {
   background-image: url(images/pasta\ in\ production.jpeg);
   height: 90vh;
   width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0%;
 }
