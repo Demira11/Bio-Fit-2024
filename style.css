@@ -65,7 +65,8 @@ body {
   justify-content: space-between;
   padding: 10px 60px;
   background: #f2ede6;
-  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.7);
+  z-index: 999;
 }
 
 #navbar {
@@ -111,4 +112,29 @@ body {
   width: 100%;
   background-size: cover;
   background-position: top 25% right 0%;
+  /* padding: 0 80px; */
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-title {
+  color: white;
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.home-sub-title {
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
