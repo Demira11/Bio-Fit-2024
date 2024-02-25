@@ -141,9 +141,10 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.best-seller {
+.best-sellers {
   text-align: center;
   font-size: 25px;
+  font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -180,14 +181,21 @@ body {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.01);
 }
 
+/* #feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+} */
+
 h5 {
   margin-top: 5px;
   font-weight: 300;
   font-size: 15px;
+  line-height: 2;
 }
 
 h6 {
   font-weight: lighter;
+  line-height: 2;
 }
 
 .price {
