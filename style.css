@@ -219,3 +219,6 @@ button:hover {
   background-color: white;
   color: #678935;
 }
+a {
+  text-decoration: none;
+}
