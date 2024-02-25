@@ -151,21 +151,10 @@ body {
   padding-bottom: 10px;
 }
 
-.green-line {
-  background: #678935;
-  height: 3px;
-  margin-bottom: 3px;
-}
-#feature img {
-  width: 25vh;
-  height: 30vh;
-  padding-right: 40px;
-}
-
 #feature {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -183,14 +172,19 @@ body {
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.01);
 }
 
-/* #feature .fe-box img {
+#feature .fe-box img {
   width: 100%;
   margin-bottom: 10px;
-} */
+}
+
+.green-line {
+  background: #678935;
+  height: 3px;
+  margin-bottom: 3px;
+}
 
 h5 {
   margin-top: 5px;
-  /* font-weight: 300; */
   font-size: 15px;
   line-height: 2;
   font-weight: 300;
@@ -204,4 +198,24 @@ h6 {
 .price {
   font-size: 10px;
   font-weight: lighter;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #678935;
+  color: white;
+  border: solid 1px #678935;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: white;
+  color: #678935;
 }
