@@ -151,13 +151,6 @@ body {
   padding-bottom: 10px;
 }
 
-/* .hr-1,
-.hr-2 {
-  margin-left: 50px;
-  width: 350px;
-  margin: 0 auto;
-} */
-
 .green-line {
   background: #678935;
   height: 3px;
@@ -197,9 +190,10 @@ body {
 
 h5 {
   margin-top: 5px;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 15px;
   line-height: 2;
+  font-weight: 300;
 }
 
 h6 {
@@ -209,4 +203,5 @@ h6 {
 
 .price {
   font-size: 10px;
+  font-weight: lighter;
 }
