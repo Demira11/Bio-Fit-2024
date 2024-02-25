@@ -141,6 +141,8 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+/*vest sellers part*/
+
 .best-sellers {
   text-align: center;
   font-size: 25px;
@@ -149,12 +151,12 @@ body {
   padding-bottom: 10px;
 }
 
-.hr-1,
+/* .hr-1,
 .hr-2 {
   margin-left: 50px;
   width: 350px;
   margin: 0 auto;
-}
+} */
 
 .green-line {
   background: #678935;
@@ -165,6 +167,13 @@ body {
   width: 25vh;
   height: 30vh;
   padding-right: 40px;
+}
+
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #feature .fe-box {
