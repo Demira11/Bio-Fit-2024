@@ -243,15 +243,20 @@ hr {
 .footer-bio img {
   width: 60px;
   height: 60px;
-  margin-top: 70px;
+  margin-top: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  /* width: 50%; */
 }
 
-h4,
-h5 {
+.footer-bio h4 {
   text-align: center;
+  margin: 0;
+}
+
+.footer-bio h5 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
 }
