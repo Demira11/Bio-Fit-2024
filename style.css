@@ -10,8 +10,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(images/Background\ Logo.jpeg);
-  background-size: cover; /* Cover the entire viewport */
-  background-position: center; /* Center the image */
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -252,13 +252,13 @@ hr {
 
 .footer-bio h4 {
   text-align: center;
-  margin: 0;
 }
 
 .footer-bio h5 {
   text-align: center;
   font-size: 10px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .footer-bio {
@@ -268,6 +268,7 @@ hr {
 }
 
 .footer-bio li {
+  display: inline;
   list-style: none;
   padding: 0 20px;
   position: relative;
@@ -275,7 +276,7 @@ hr {
 
 .footer-bio li a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 12px;
   color: #1e2833;
   transition: 0.3s ease;
 }
