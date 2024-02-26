@@ -257,7 +257,6 @@ hr {
 .footer-bio h5 {
   text-align: center;
   font-size: 10px;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -295,4 +294,23 @@ hr {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+
+.footer-bio,
+.fa-brands {
+  text-align: center;
+  margin-top: 25px;
+  gap: 5px;
+}
+
+.footer-bio i:first-child {
+  margin-right: 10px; /* Adjust the right margin of the first icon */
+}
+
+.footer-bio i:last-child {
+  margin-left: 10px; /* Adjust the left margin of the last icon */
+}
+
+.footer-p {
+  font-size: 10px;
 }
