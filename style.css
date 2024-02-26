@@ -260,3 +260,38 @@ hr {
   font-size: 10px;
   font-weight: bold;
 }
+
+.footer-bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bio li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+.footer-bio li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1e2833;
+  transition: 0.3s ease;
+}
+
+.footer-bio li a:hover,
+.footer-bio a.active {
+  color: #678935;
+}
+
+.footer-bio li a.active::after,
+.footer-bio li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #678935;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
