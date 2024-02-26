@@ -6,6 +6,15 @@
   font-family: "Spartan", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/Background\ Logo.jpeg);
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-attachment: fixed;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -221,4 +230,18 @@ button:hover {
 }
 a {
   text-decoration: none;
+}
+
+/*Footer*/
+
+hr {
+  background-color: #678935;
+  border: none;
+  height: 2px;
+  margin-top: 70px;
+}
+.footer-bio img {
+  width: 60px;
+  height: 60px;
+  margin-top: 70px;
 }
