@@ -312,5 +312,17 @@ hr {
 }
 
 .footer-p {
+  width: 100%;
+  text-align: center;
   font-size: 10px;
+}
+
+/* Start Media Query */
+
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
