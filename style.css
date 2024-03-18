@@ -121,6 +121,10 @@ body {
   align-items: center;
 }
 
+#close {
+  display: none;
+}
+
 /*home page*/
 
 #hero {
@@ -325,6 +329,9 @@ hr {
 /* Start Media Query */
 
 @media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
   #navbar {
     display: flex;
     flex-direction: column;
@@ -360,10 +367,35 @@ hr {
   }
 
   #close {
+    display: initial;
     position: absolute;
     top: 30px;
     left: 30px;
     color: #222;
     font-size: 24px;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  /* #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  } */
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+}
+
+@media (max-width: 477px) {
+  #header {
+    padding: 10px 30px;
   }
 }
