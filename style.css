@@ -397,6 +397,22 @@ h6 {
   font-weight: lighter;
 }
 
+.button-shop {
+  width: 200px;
+  height: 40px;
+  background-color: #678935;
+  color: white;
+  border: solid 1px #678935;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
@@ -492,14 +508,5 @@ h6 {
   #feature .fe-box {
     width: 155px;
     margin: 0 0 15px 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #feature-shop {
-    grid-template-columns: repeat(
-      4,
-      1fr
-    ); /* 4 columns in each row for larger screens */
   }
 }
