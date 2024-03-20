@@ -329,7 +329,21 @@ hr {
 /*Shop Page*/
 
 #page-header {
-  background-image: url(images/biofit\ assets.jpeg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 50vh;
+  background-image: url("images/biofit_assets__1_-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Adjust the position of the content below the image */
+.section-p1 {
+  margin-top: 50vh;
 }
 
 /* Start Media Query */
