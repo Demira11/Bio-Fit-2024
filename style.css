@@ -352,7 +352,7 @@ hr {
 #feature-shop {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  grid-gap: 85px;
   justify-items: center;
 }
 
@@ -492,5 +492,14 @@ h6 {
   #feature .fe-box {
     width: 155px;
     margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #feature-shop {
+    grid-template-columns: repeat(
+      4,
+      1fr
+    ); /* 4 columns in each row for larger screens */
   }
 }
