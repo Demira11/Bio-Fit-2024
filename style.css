@@ -328,7 +328,7 @@ hr {
 
 /*Shop Page*/
 
-#page-header {
+/* #page-header {
   position: absolute;
   top: 0;
   left: 50%;
@@ -341,30 +341,28 @@ hr {
   z-index: 1;
 }
 
-/* Adjust the position of the content below the image */
 .section-p1 {
-  margin-top: 50vh; /* Adjust this value based on the height of the image */
-}
+  margin-top: 50vh;
+} */
 
-/* #page-header {
+#page-header {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -40%;
+  left: 5%;
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 50%; 
-  height: 50vh; 
+  width: 50%;
+  height: 50vh;
   background-image: url("images/biofit_assets__1_-removebg-preview.png");
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
 }
 
-
 .section-p1 {
   margin-top: 50vh;
-} */
+}
 
 /* Start Media Query */
 
