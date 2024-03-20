@@ -13,3 +13,9 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+// Get the current year
+// const currentYear = new Date().getFullYear();
+
+// Update the copyright year in the footer
+// document.getElementById("copyright-year").textContent = currentYear;
