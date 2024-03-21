@@ -313,7 +313,7 @@ hr {
 }
 
 .footer-bio i:first-child {
-  margin-right: 10px; /* Adjust the right margin of the first icon */
+  margin-right: 10px;
 }
 
 .footer-bio i:last-child {
@@ -395,22 +395,6 @@ h6 {
 .price {
   font-size: 10px;
   font-weight: lighter;
-}
-
-.button-shop {
-  width: 200px;
-  height: 40px;
-  background-color: #678935;
-  color: white;
-  border: solid 1px #678935;
-  border-radius: 8px;
-  margin: 0 auto;
-  padding: 5px;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 45px;
 }
 
 /* Start Media Query */
