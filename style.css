@@ -394,7 +394,8 @@ h6 {
 
 .price {
   font-size: 10px;
-  font-weight: lighter;
+  font-weight: 400;
+  color: #678935;
 }
 
 /* Start Media Query */
