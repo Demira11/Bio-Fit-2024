@@ -398,6 +398,15 @@ h6 {
   color: #678935;
 }
 
+.cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  color: #678935;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
