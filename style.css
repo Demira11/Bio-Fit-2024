@@ -407,6 +407,23 @@ h6 {
   color: #678935;
 }
 
+/*Single product*/
+
+#prodetails .single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
