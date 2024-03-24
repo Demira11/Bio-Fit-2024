@@ -455,10 +455,6 @@ h6 {
   margin-right: 10px;
 }
 
-/* #prodetails .single-pro-details input:focus {
-  outline: none;
-} */
-
 #prodetails .single-pro-details button {
   background: #678935;
   color: #fff;
@@ -470,6 +466,7 @@ h6 {
 
 .extra img {
   width: 100%;
+  height: auto;
   margin-top: 25px;
 }
 
@@ -484,7 +481,7 @@ h6 {
 }
 
 .first {
-  padding-left: 55px;
+  padding-left: 35px;
 }
 .middle {
   padding-right: 55px;
