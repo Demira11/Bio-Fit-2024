@@ -479,8 +479,15 @@ h6 {
 }
 
 .extra-details h5 {
-  font-size: 10px;
+  font-size: 11px;
   margin: 0 85px 0 0;
+}
+
+.first {
+  padding-left: 55px;
+}
+.middle {
+  padding-right: 55px;
 }
 
 /* Start Media Query */
