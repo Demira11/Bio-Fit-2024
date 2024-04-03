@@ -463,9 +463,21 @@ h6 {
 #prodetails .single-pro-details span {
   line-height: 25px;
 }
-
+/* 
 .extra img {
   width: 100%;
+  height: auto;
+  margin-top: 25px;
+} */
+
+.extra {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.extra img {
+  width: 50%; /* Adjust the width as desired */
   height: auto;
   margin-top: 25px;
 }
