@@ -463,40 +463,28 @@ h6 {
 #prodetails .single-pro-details span {
   line-height: 25px;
 }
-/* 
-.extra img {
-  width: 100%;
-  height: auto;
-  margin-top: 25px;
-} */
 
 .extra {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
   margin-top: 25px;
 }
 
 .extra img {
   width: 50%; /* Adjust the width as desired */
   height: auto;
-  margin-top: 25px;
 }
 
 .extra-details {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
 }
 
 .extra-details h5 {
   font-size: 11px;
-  margin: 0 85px 0 0;
-}
-
-.first {
-  padding-left: 35px;
-}
-.middle {
-  padding-right: 55px;
+  margin: 0;
 }
 
 /* Start Media Query */
