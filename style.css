@@ -347,8 +347,6 @@ hr {
   margin-top: 50vh;
 }
 
-/*shop page css*/
-
 #feature-shop {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -422,11 +420,16 @@ h6 {
 #prodetails {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 #prodetails .single-pro-image {
   width: 100%;
-  margin-right: 0px;
+  /* margin-right: 0px; */
+}
+
+#prodetails .single-pro-details {
+  width: 100%;
 }
 
 .small-img-group {
@@ -439,10 +442,10 @@ h6 {
   cursor: pointer;
 }
 
-#prodetails .single-pro-details {
+/* #prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
-}
+} */
 
 #prodetails .single-pro-details h4 {
   padding: 40px 0 20px 0;
