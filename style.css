@@ -577,4 +577,8 @@ h6 {
     width: 155px;
     margin: 0 0 15px 0;
   }
+
+  #feature-shop .section-p1-shop {
+    width: 100%;
+  }
 }
