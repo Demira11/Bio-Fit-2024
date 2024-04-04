@@ -409,13 +409,19 @@ h6 {
 
 /*Single product*/
 
-#prodetails {
+/* #prodetails {
   display: flex;
   margin-top: 20px;
-}
-#prodetails .single-pro-image {
+} */
+
+/* #prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
+} */
+
+#prodetails {
+  display: flex;
+  flex-direction: column;
 }
 
 .small-img-group {
@@ -576,9 +582,5 @@ h6 {
   #feature .fe-box {
     width: 155px;
     margin: 0 0 15px 0;
-  }
-
-  #feature-shop .section-p1-shop {
-    width: 100%;
   }
 }
