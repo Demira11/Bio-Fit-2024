@@ -424,6 +424,11 @@ h6 {
   flex-direction: column;
 }
 
+#prodetails .single-pro-image {
+  width: 100%;
+  margin-right: 0px;
+}
+
 .small-img-group {
   display: flex;
   justify-content: space-between;
