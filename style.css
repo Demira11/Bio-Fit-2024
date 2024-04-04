@@ -592,3 +592,23 @@ h6 {
     margin: 0 0 15px 0;
   }
 }
+
+/*About page*/
+
+/* #blog {
+  padding: 150px 150px 0 150px;
+} */
+
+#blog .blog-img img {
+  /* padding: 150px 150px 0 150px; */
+  width: 650px;
+  height: 650px;
+  padding: 80px 70px 0 70px;
+  /* padding-top: 70px; */
+}
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
