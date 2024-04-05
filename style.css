@@ -603,6 +603,7 @@ h6 {
   display: flex;
   align-items: center;
   width: 100%;
+  /* position: relative; */
 }
 
 #blog .blog-img {
@@ -620,26 +621,17 @@ h6 {
   width: 50%;
 }
 
-/* #blog {
-  padding: 150px 150px 0 150px;
-} */
-
-/* #blog .blog-box {
+.image-row {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.blog-box .under-img {
+  font-size: 13px;
+  text-align: center;
+}
+
+.blog-img-image {
   width: 100%;
 }
-
-#blog .blog-img img {
-   
-  width: 650px;
-  height: 650px;
-  padding: 80px 70px 0 70px;
-  
-}
-
-.blog-details {
-  padding-right: 70px;
-  padding-top: 95px;
-  line-height: 30px;
-} */
