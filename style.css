@@ -616,6 +616,10 @@ h6 {
   object-fit: cover;
 }
 
+#blog .blog-details {
+  width: 50%;
+}
+
 /* #blog {
   padding: 150px 150px 0 150px;
 } */
