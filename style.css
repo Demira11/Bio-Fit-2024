@@ -595,9 +595,9 @@ h6 {
 
 /*About page*/
 
-/* #blog {
+#blog {
   padding: 150px 150px 0 150px;
-} */
+}
 
 #blog .blog-box {
   display: flex;
@@ -605,16 +605,37 @@ h6 {
   width: 100%;
 }
 
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* #blog {
+  padding: 150px 150px 0 150px;
+} */
+
+/* #blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 #blog .blog-img img {
-  /* padding: 150px 150px 0 150px; */
+   
   width: 650px;
   height: 650px;
   padding: 80px 70px 0 70px;
-  /* padding-top: 70px; */
+  
 }
 
 .blog-details {
   padding-right: 70px;
   padding-top: 95px;
   line-height: 30px;
-}
+} */
