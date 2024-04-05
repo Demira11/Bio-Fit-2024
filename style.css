@@ -655,10 +655,23 @@ h6 {
 
   #blog .blog-details {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0px;
+  }
+
+  /*About Page*/
+
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
   }
 }
-
-/*About page*/
 
 #blog {
   padding: 150px 150px 0 150px;
