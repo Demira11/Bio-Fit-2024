@@ -591,6 +591,71 @@ h6 {
     width: 155px;
     margin: 0 0 15px 0;
   }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #feature .fe-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+
+  #product1 .pro {
+    width: 100%;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box2 {
+    margin-top: 20px;
+  }
+
+  #banner3 {
+    padding: 0 20px;
+  }
+
+  #banner3 .banner-box {
+    width: 100%;
+  }
+
+  #newsletter {
+    padding: 40px 20px;
+  }
+
+  #newsletter .form {
+    width: 100%;
+  }
+
+  footer .copyright {
+    text-align: start;
+  }
+
+  /*About Page*/
+
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-details {
+    width: 100%;
+  }
 }
 
 /*About page*/
@@ -604,6 +669,7 @@ h6 {
   align-items: center;
   width: 100%;
   /* position: relative; */
+  /* padding-bottom: 90px; */
 }
 
 #blog .blog-img {
@@ -625,6 +691,14 @@ h6 {
   display: flex;
   justify-content: center;
   margin-top: 60px;
+}
+
+.blog-box {
+  margin-right: 20px;
+}
+
+.blog-box:last-child {
+  margin-right: 0;
 }
 
 .blog-box .under-img {
