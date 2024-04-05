@@ -599,6 +599,12 @@ h6 {
   padding: 150px 150px 0 150px;
 } */
 
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 #blog .blog-img img {
   /* padding: 150px 150px 0 150px; */
   width: 650px;
@@ -607,8 +613,8 @@ h6 {
   /* padding-top: 70px; */
 }
 
-#blog .blog-box {
-  display: flex;
-  align-items: center;
-  width: 100%;
+.blog-details {
+  padding-right: 70px;
+  padding-top: 95px;
+  line-height: 30px;
 }
