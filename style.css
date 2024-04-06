@@ -501,6 +501,28 @@ h6 {
   margin: 0;
 }
 
+/*Contact page*/
+
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact-details .details {
+  width: 40%;
+}
+
+#contact-details .details span {
+  font-size: 12px;
+}
+
+#contact-details .details h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
