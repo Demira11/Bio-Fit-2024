@@ -624,8 +624,9 @@ h6 {
 
 @media (max-width: 799px) {
   .section-p1 {
-    padding: 40px 40px;
+    padding: 40px 20px;
   }
+
   #navbar {
     display: flex;
     flex-direction: column;
@@ -680,6 +681,24 @@ h6 {
   #feature .fe-box {
     margin: 15px 15px;
   }
+
+  #hero {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .home-title {
+    font-size: 2em;
+  }
+
+  .home-sub-title {
+    font-size: 1.2em;
+  }
+
+  .best-sellers {
+    text-align: center;
+  }
+
   /*Contact Page*/
   #form-details {
     padding: 40px;
