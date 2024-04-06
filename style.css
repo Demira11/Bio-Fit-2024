@@ -544,6 +544,17 @@ h6 {
   font-size: 14px;
 }
 
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+  margin-top: 50px; /*remove this is interfering with media query*/
+}
+
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
