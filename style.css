@@ -486,6 +486,12 @@ h6 {
   margin-top: 25px;
 }
 
+.extra-details .first,
+.middle,
+h5 {
+  margin-left: 240px;
+}
+
 .extra img {
   width: 50%;
   height: auto;
