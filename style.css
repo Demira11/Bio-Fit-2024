@@ -674,6 +674,10 @@ h6 {
   #feature .fe-box {
     margin: 15px 15px;
   }
+  /*Contact Page*/
+  #form-details {
+    padding: 40px;
+  }
 }
 
 @media (max-width: 477px) {
