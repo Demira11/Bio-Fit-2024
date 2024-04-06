@@ -579,6 +579,8 @@ h6 {
 
 #form-details .people div {
   padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
 }
 
 #form-details .people div img {
