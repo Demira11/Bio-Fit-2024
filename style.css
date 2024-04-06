@@ -573,6 +573,10 @@ h6 {
   border: 1px solid #e1e1e1;
 }
 
+#form-details form button:hover {
+  cursor: pointer;
+}
+
 /* Start Media Query */
 
 @media (max-width: 799px) {
