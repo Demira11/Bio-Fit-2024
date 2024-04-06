@@ -678,6 +678,9 @@ h6 {
   #form-details {
     padding: 40px;
   }
+  #form-details form {
+    width: 50%;
+  }
 }
 
 @media (max-width: 477px) {
@@ -779,13 +782,25 @@ h6 {
     padding-left: 0px;
   }
 
-  /*About Page*/
-
   #about-head {
     flex-direction: column;
   }
 
   #about-head img {
+    width: 100%;
+  }
+
+  /*Contact Page*/
+  #contact-details {
+    flex-direction: column;
+  }
+
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact-details .map {
     width: 100%;
   }
 }
