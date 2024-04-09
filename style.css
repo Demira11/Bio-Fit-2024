@@ -890,3 +890,12 @@ h6 {
 .blog-img-image {
   width: 100%;
 }
+
+/*Cart Page*/
+
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
