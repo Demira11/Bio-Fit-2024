@@ -949,3 +949,11 @@ h6 {
   font-size: 13px;
   padding: 18px 0;
 }
+
+#cart table tbody tr td {
+  padding-top: 15px;
+}
+
+#cart table tbody td {
+  font-size: 13px;
+}
