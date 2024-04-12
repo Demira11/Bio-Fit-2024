@@ -982,9 +982,9 @@ h6 {
   margin-right: 10px;
   border: 1px solid #e2e9e1;
 }
-
-/* #coupon button {
-  padding: 12px 20px;
+/* 
+#coupon button,
+#subtotal button {
 } */
 
 #subtotal {
