@@ -781,6 +781,32 @@ h6 {
   footer .copyright {
     text-align: start;
   }
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    /* Update the header layout for smaller screens */
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Make the feature shop section responsive */
+    .fe-box {
+      width: 100%;
+      padding: 10px;
+    }
+  }
 
   /*About Page*/
 
