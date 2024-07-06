@@ -1,125 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="responsive.css" />
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bio-Fit</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/e65eb91344.js"
       crossorigin="anonymous"
     ></script>
-
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
-
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <section id="header">
-      <a href="#"><img src="images/biofit assets logo.png" class="logo" /></a>
+    <section id="header" class="bg-light p-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#"><img src="images/biofit assets logo.png" class="logo" /></a>
 
-      <div>
-        <ul id="navbar">
-          <li><a href="index.html">HOME</a></li>
-          <li><a class="active" href="shop.html">SHOP</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li id="lg-bag">
-            <a href="cart.html"
-              ><i class="fa-sharp fa-solid fa-cart-shopping"></i
-            ></a>
-          </li>
-          <a href="#" id="close"><i class="far fa-times"></i></a>
-        </ul>
-      </div>
-      <div id="mobile">
-        <a href="cart.html"
-          ><i class="fa-sharp fa-solid fa-cart-shopping"></i
-        ></a>
-        <i id="bar" class="fa-solid fa-bars"></i>
+        <nav class="d-none d-md-block">
+          <ul id="navbar" class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="shop.html">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item" id="lg-bag">
+              <a class="nav-link" href="cart.html"
+                ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div id="mobile" class="d-block burger">
+          <a href="cart.html"
+            ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+          ></a>
+          <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </section>
 
-    <section id="prodetails" class="section-p1">
-      <div class="single-pro-image">
-        <img
-          src="images/rezanci špinat.jpeg"
-          width="100%"
-          id="MainImg"
-          alt="fideline"
-        />
-        <div class="small-img-group">
-          <div class="small-img-col">
-            <img
-              src="images/Untitled design.png"
-              width="100%"
-              class="small-img"
-              alt="naked-fideline-1"
-            />
-          </div>
-          <div class="small-img-col">
-            <img
-              src="images/istockphoto-929645984-612x612.jpg"
-              width="100%"
-              class="small-img"
-              alt="naked-fideline-2"
-            />
-          </div>
-          <div class="small-img-col">
-            <img
-              src="https://d36fw6y2wq3bat.cloudfront.net/recipes/tagliatelle-con-pesto-de-espinaca/900/tagliatelle-con-pesto-de-espinaca_version_1652878380.jpg"
-              width="100%"
-              class="small-img"
-              alt="naked-fideline-3"
-            />
-          </div>
-          <div class="small-img-col">
-            <img
-              src="https://scarlatifamilykitchen.com/wp-content/uploads/2021/01/homemade-spinach-fettuccine-1200-x-1200-500x375.jpg"
-              width="100%"
-              class="small-img"
-              alt="naked-fideline-4"
-            />
+    <section id="prodetails" class="section-p1 container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <img
+            src="images/rezanci.jpeg"
+            class="img-fluid"
+            id="MainImg"
+            alt="fideline"
+          />
+          <div class="small-img-group d-flex justify-content-between mt-2">
+            <div class="small-img-col">
+              <img
+                src="images/Untitled design.png"
+                class="small-img img-fluid"
+                alt="naked-fideline-1"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="images/istockphoto-929645984-612x612.jpg"
+                class="small-img img-fluid"
+                alt="naked-fideline-2"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="https://d36fw6y2wq3bat.cloudfront.net/recipes/tagliatelle-con-pesto-de-espinaca/900/tagliatelle-con-pesto-de-espinaca_version_1652878380.jpg"
+                class="small-img img-fluid"
+                alt="naked-fideline-3"
+              />
+            </div>
+            <div class="small-img-col">
+              <img
+                src="https://scarlatifamilykitchen.com/wp-content/uploads/2021/01/homemade-spinach-fettuccine-1200-x-1200-500x375.jpg"
+                class="small-img img-fluid"
+                alt="naked-fideline-4"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="single-pro-details">
-        <!-- <h6>Home / Tagliatelle</h6> -->
-        <h4>Tagliatelle Spinach</h4>
-        <h2>4KM 300gr</h2>
-        <select>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-        </select>
-        <button class="normal">Add to Cart</button>
-        <h4>Product Details</h4>
-        <hr />
-        <span
-          ><br />These delicious tagliatelle nests combine hearty durum wheat
-          semolina and flavourful green spinach to create a delicious pasta
-          speciality in a striking green colour. Thanks to the roughened
-          surface, sauces stick much better to the pasta. It is also an
-          excellent side dish for fish, meat and vegetable dishes. <br />
-          <br />Ingredients: spinach, eggs, flour, salt</span
-        >
-        <hr />
-        <div class="extra">
-          <img src="images/biofit_assets-removebg-preview.png" alt="features" />
-        </div>
-        <div class="extra-details">
-          <h5 class="first">Made in Bosnia&Herzegovina</h5>
-          <h5 class="middle">Contains Wheat</h5>
-          <h5 class="last">GMO Free</h5>
+        <div class="col-lg-6 col-md-12">
+          <h4>Tagliatelle Spinach</h4>
+          <h2>4KM 300gr</h2>
+          <div class="row select-button">
+            <div class="col-md-6">
+              <select class="form-control w-50">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <h4 class="mt-4">Product Details</h4>
+          <hr />
+          <span>
+            These delicious tagliatelle nests combine hearty durum wheat
+            semolina and flavourful green spinach to create a delicious pasta
+            speciality in a striking green colour. Thanks to the roughened
+            surface, sauces stick much better to the pasta. It is also an
+            excellent side dish for fish, meat and vegetable dishes.
+            <br /><br />
+            Ingredients: spinach, eggs, flour, salt
+          </span>
+          <hr />
+          <div class="extra">
+            <img
+              src="images/biofit_assets-removebg-preview.png"
+              alt="features"
+            />
+          </div>
+          <div class="extra-details">
+            <h5 class="first">Made in Bosnia&Herzegovina</h5>
+            <h5 class="middle">Contains Wheat</h5>
+            <h5 class="last">GMO Free</h5>
+          </div>
         </div>
       </div>
     </section>
@@ -167,6 +184,9 @@
         MainImg.src = smallimg[3].src;
       };
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
