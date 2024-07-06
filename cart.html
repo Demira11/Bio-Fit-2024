@@ -9,6 +9,10 @@
       src="https://kit.fontawesome.com/e65eb91344.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <link
       rel="stylesheet"
@@ -47,77 +51,93 @@
     </section>
 
     <section id="cart" class="section-p1">
-      <table width="100%">
-        <thead>
-          <tr>
-            <td>Remove</td>
-            <td>Image</td>
-            <td>Product</td>
-            <td>Price</td>
-            <td>Quantity</td>
-            <td>Subtotal</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <a href="#"><i class="far fa-times-circle"></i></a>
-            </td>
-            <td><img src="images/fidelini.jpeg " alt="fid" /></td>
-            <td>Fideline Vermicelli Pasta</td>
-            <td>3.50KM</td>
-            <td><input type="number" value="1" /></td>
-            <td>3.50KM</td>
-          </tr>
-          <tr>
-            <td>
-              <a href="#"><i class="far fa-times-circle"></i></a>
-            </td>
-            <td><img src="images/rezanci classic.jpeg" alt="fid" /></td>
-            <td>Rezanci Classic</td>
-            <td>4.50KM</td>
-            <td><input type="number" value="1" /></td>
-            <td>4.50KM</td>
-          </tr>
-          <tr>
-            <td>
-              <a href="#"><i class="far fa-times-circle"></i></a>
-            </td>
-            <td><img src="images/jeriščev pilav.jpeg" alt="fid" /></td>
-            <td>Jeriščev Pilav</td>
-            <td>4.00KM</td>
-            <td><input type="number" value="1" /></td>
-            <td>4.00KM</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="container">
+        <div class="table-responsive">
+          <table class="table table-borderless">
+            <thead class="thead">
+              <tr>
+                <th>Remove</th>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="#"><i class="far fa-times-circle"></i></a>
+                </td>
+                <td>
+                  <img src="images/fidelini.jpeg" alt="fid" class="img-fluid" />
+                </td>
+                <td>Fideline Vermicelli Pasta</td>
+                <td>3.50KM</td>
+                <td><input type="number" value="1" class="form-control" /></td>
+                <td>3.50KM</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"><i class="far fa-times-circle"></i></a>
+                </td>
+                <td>
+                  <img
+                    src="images/rezanci classic.jpeg"
+                    alt="rezanci"
+                    class="img-fluid"
+                  />
+                </td>
+                <td>Rezanci Classic</td>
+                <td>4.50KM</td>
+                <td><input type="number" value="1" class="form-control" /></td>
+                <td>4.50KM</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"><i class="far fa-times-circle"></i></a>
+                </td>
+                <td>
+                  <img src="images/pilav.jpeg" alt="pilav" class="img-fluid" />
+                </td>
+                <td>Jeriščev Pilav</td>
+                <td>4.00KM</td>
+                <td><input type="number" value="1" class="form-control" /></td>
+                <td>4.00KM</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </section>
 
     <section id="cart-add" class="section-p1">
-      <div id="coupon">
-        <h3>Apply Coupon</h3>
-        <div>
-          <input type="text" placeholder="Enter Your Coupon" />
-          <button class="normal">Apply</button>
+      <div class="row">
+        <div id="coupon" class="col-md-6">
+          <h3>Apply Coupon</h3>
+          <div>
+            <input type="text" placeholder="Enter Your Coupon" />
+            <button class="normal coupon-button">Apply</button>
+          </div>
         </div>
-      </div>
-      <div id="subtotal">
-        <h3>Cart Totals</h3>
-        <table>
-          <tr>
-            <td>Cart Subtotals</td>
-            <td>12.00</td>
-          </tr>
-          <tr>
-            <td>Shipping</td>
-            <td>Free</td>
-          </tr>
-          <tr>
-            <td><strong>Total</strong></td>
-            <td><strong>12.00KM</strong></td>
-          </tr>
-        </table>
-        <button class="normal">Proceed to checkout</button>
+        <div id="subtotal" class="col-md-6">
+          <h3>Cart Totals</h3>
+          <table>
+            <tr>
+              <td>Cart Subtotals</td>
+              <td>12.00</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td><strong>12.00KM</strong></td>
+            </tr>
+          </table>
+          <button class="normal">Proceed to checkout</button>
+        </div>
       </div>
     </section>
 
